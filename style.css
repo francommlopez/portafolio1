@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:darkslategrey
+}
+ header nav ul {
+    display: flex;
+    gap: 2em;
+    color: azure;
+
+ }
+ header nav ul li a {
+    color: azure;
+ }
+
+ header a i{
+    color: white;
+    font-size: 2em;
+ }
+.imagen-portada{
+    height: auto;
+    width: 50%;
+}
+.imagen-subtitulo{
+    height: auto;
+    width: 50%;
+}
+
+
